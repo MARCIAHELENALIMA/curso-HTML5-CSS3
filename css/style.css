@@ -249,7 +249,6 @@ nav:after {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
-    color: #FFF;
 }
 
 .job-type span{
@@ -272,3 +271,126 @@ nav:after {
 .home-office{
     background-color: darkorange;
 }
+
+/*see more div*/
+.btnjobs-container{
+    margin-top: 50px;
+}
+
+.btn-jobs{
+    text-transform: uppercase;
+    background-color: #FFF;
+    color: #3381f3;
+    border: 2px solid #3381f3;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn-jobs:hover{
+    background-color: #3381f3;
+    color: #FFF;
+}
+
+/*send jobs container*/
+#sendjobs-container{
+    background: url('../img/banner2.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 25%;
+    padding: 15em 0;
+}
+
+#sendjobs-container h2, #sendjobs-container p{
+    width: 600px;
+    color: #FFF;
+}
+
+#sendjobs-container h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#sendjobs-container p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.light-btn{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.light-btn:hover{
+    background-color: transparent;
+    color: #FFF;
+}
+
+/*status jobfinder*/
+#status-container{
+    text-align: center;
+    padding: 5em 0;
+}
+
+.title-center{
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.p-center{
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.status-box{
+    display: inline-block;
+    text-align: center;
+    width: 24.5%;
+    margin-top: 80px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    height: 100px;
+}
+
+
+.status-box:nth-child(2){
+    border: none;
+}
+.status-box:nth-child(3){
+    border-right: none;
+}
+
+.status-box:nth-child(6){
+    border-left: none;
+}
+
+.status-qtd{
+    font-size: 36px;
+}
+
+.status-text{
+    font-size: 20px;
+}
+
+
+/*@media {
+    
+.status-box:nth-child(2){
+    border: none;
+}
+.status-box:nth-child(5){
+    border: none;
+}
+*/
