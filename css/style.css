@@ -447,6 +447,63 @@ nav:after {
 .testmony-name {
 	font-weight: bold;
 }
+/* blog container*/
+#blog-container{
+    text-align: center;
+    padding: 5em 0;
+}
+
+#blog-container .p-center{
+    margin-bottom: 60px;
+}
+
+.article-box{
+    display: inline-block;
+    width: 31%;
+    padding: 0 1%;
+    text-align: left;
+}
+
+.article-box img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.article-box h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.article-box h4 a{
+    text-decoration: none;
+    color: #666;
+}
+
+.article-date{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.article-resume{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.article-btn{
+    background-color: #3381f3;
+    border-color: #3381f3;
+    color: #FFF;
+}
+
+.article-btn:hover{
+    background-color: #FFF;
+    color: #3381f3;
+}
+
+
+
+
 /*@media {
     
 .status-box:nth-child(2){
