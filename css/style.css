@@ -658,14 +658,62 @@ footer .wrapper:after {
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.company-box {
+		width: 46%;
+		padding-left: 1em;
+	}
+
+	.company-box .company-info h3 {
+		font-size: 1em;
+	}
+
+	.company-box .company-info p {
+		font-size: .8em;
+	}
+
+	.locality i, .locality p {
+		font-size: .8em;
+	}
+
+	.job-type {
+		right: 1em;
+	}
+
+	.job-type span {
+		font-size: .8em;
+	}
+
+	#sendjobs-inner h2, #sendjobs-inner p{
+		text-shadow: .5px .5px #000;
+	}
+
+	.status-box{
+		width: 30%;
+		border: none;
+	}
+
+	.status-box:nth-child(1), .status-box:nth-child(2), .status-box:nth-child(4), .status-box:nth-child(5){
+		border-right: 1px solid #000;
+	}
+
+	.testmony-box{
+		width: 49.4%;
+	}
+
+
+
+
+
 
 
 
 
 
 }
-
-
 
 
 
