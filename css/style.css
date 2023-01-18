@@ -22,17 +22,17 @@ h1, h2, h3, h4, h5, p, span {
 	margin-right: auto;
 }
 
-/* hide on desktop */
-.nav-container .btn-menumobile {
-	display: none;
-}
-
 /* header */
 header {
 	position: relative;
 	top: 0;
 	height: auto;
 	width: 100%;
+}
+
+/* hide on descktop*/
+.nav-container .btn-menumobile{
+	display: none;
 }
 
 /* navbar */
@@ -359,8 +359,8 @@ nav:after {
     text-align: center;
     width: 24.5%;
     margin-top: 80px;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
     height: 100px;
 }
 
@@ -585,8 +585,6 @@ footer .wrapper:after {
     margin-bottom: 10px;
 }
 
-
-
 .fab {
 	font-size: 30px;
 	margin-right: 10px;
@@ -703,16 +701,72 @@ footer .wrapper:after {
 	.testmony-box{
 		width: 49.4%;
 	}
+	
+	.article-box{
+		width: 100%;
+		display: block;
+		padding: 0;
+		margin-bottom: 3em;
+	}
+}
+
+@media screen and (max-width:576px) {
+	
+	.nav-container .btn-menumobile{
+		display: block !important;
+	}
+	html, body{
+		overflow-x: hidden;
+	}
+
+	nav{
+		height: 4em;
+	}
+
+	#logo{
+		left: 2em;
+		height: 2em;
+		width: 2em;
+		margin-top: 1em;
+	}
+
+	.btn-menumobile{
+		display: block;
+		font-size: 1.75em;
+		color: #ccc;
+		position: absolute;
+		right: 1.5em;
+		top: .75em;
+	}
+
+	.nav-container ul{
+		position: relative;
+		top: 4em;
+		height: 3em;
+		line-height: 3em;
+		display: none;
+	}
+
+	.nav-container ul li{
+		display: block;
+		background-color: #fff;
+		margin: 0;
+		border-top: 1px solid #ccc;
+	}
+
+	.nav-container ul li a{
+		font-size: 1em;
+	}
+
+	.open{
+		display: block !important;
+
+	}
 
 
 
 
-
-
-
-
-
-
+	
 }
 
 
