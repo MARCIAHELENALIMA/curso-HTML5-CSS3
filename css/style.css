@@ -710,36 +710,38 @@ footer .wrapper:after {
 	}
 }
 
+
 @media screen and (max-width:576px) {
 	
-	.nav-container .btn-menumobile{
+	.nav-container .btn-menumobile {
 		display: block !important;
 	}
-	html, body{
-		overflow-x: hidden;
-	}
 
-	nav{
+	html, body {
+	  overflow-x:hidden 
+	} 
+
+	nav {
 		height: 4em;
 	}
 
-	#logo{
+	#logo {
 		left: 2em;
 		height: 2em;
 		width: 2em;
 		margin-top: 1em;
 	}
 
-	.btn-menumobile{
+	.btn-menumobile {
 		display: block;
 		font-size: 1.75em;
-		color: #ccc;
+		color: #CCC;
 		position: absolute;
 		right: 1.5em;
 		top: .75em;
 	}
 
-	.nav-container ul{
+	.nav-container ul {
 		position: relative;
 		top: 4em;
 		height: 3em;
@@ -747,25 +749,73 @@ footer .wrapper:after {
 		display: none;
 	}
 
-	.nav-container ul li{
+	.nav-container ul li {
 		display: block;
-		background-color: #fff;
+		background-color: #FFF;
 		margin: 0;
-		border-top: 1px solid #ccc;
+		border-top: 1px solid #CCC;
 	}
 
-	.nav-container ul li a{
+	.nav-container ul li a {
 		font-size: 1em;
 	}
 
-	.open{
+	.open {
 		display: block !important;
-
 	}
 
 
+	#main-banner{
+		margin-top: 4em;
+    }
 
+	#search-form{
+		padding-top: 15em;
+		padding-bottom: 5em;
+		width: 90%;
+	}
 
+	#search-form h1{
+        font-size: 1.6em;
+	}
+
+	#search-form p{
+		font-size: 1em;
+		margin-bottom: 2em;
+	}
+
+	#search-form form{
+		width: 80%;
+	}
+
+	#search-form input[type=submit]{
+		margin-bottom: 0;
+	}
+
+	#last-jobs-container{
+		padding: 5em 0;
+	}
+
+	.locality{
+		display: none;
+	}
+
+	.company-box .company-info{
+		margin-top:  1em;
+		margin-left: 5em;
+		width: 10em;
+		
+	}
+
+	.company-box .company-info h3{
+		font-size: .9em;
+	}
+
+	.job-type{
+		margin-right: 2em;
+	}
+
+	
 	
 }
 
