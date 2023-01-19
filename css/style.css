@@ -792,7 +792,11 @@ footer .wrapper:after {
 		margin-bottom: 3em;
 	}
 
-/* find jobs page */	 
+/* find jobs page */	
+    #findjobs #search-form input[type=submit] {
+	    margin-bottom: 0;
+    }
+	 
 	#findjobs #type-filter ul li{
 		width: 24.5%;
 		box-sizing: border-box;
