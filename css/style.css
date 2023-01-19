@@ -802,7 +802,7 @@ footer .wrapper:after {
 
 	.company-box .company-info{
 		margin-top:  1em;
-		margin-left: 5em;
+		margin-left: 1em;
 		width: 10em;
 		
 	}
@@ -812,8 +812,43 @@ footer .wrapper:after {
 	}
 
 	.job-type{
-		margin-right: 2em;
+		width: 22%;
 	}
+
+	#sendjobs-container{
+		background-position: 35% 0;
+		padding: 10em 0;
+	}
+
+	#sendjobs-container h2{
+		font-size: 1.5em;
+		width: 100%;
+	}
+
+	#sendjobs-container p{
+		font-size: 1em;
+		width: 100%;
+	}
+
+	.status-box{
+		margin-top: 3em;
+		height: 100%;
+	}
+
+	.status-box:nth-child(1), .status-box:nth-child(2), .status-box:nth-child(4), .status-box:nth-child(5){
+		border: none;
+	}
+
+	#testmony-container{
+		padding: 5em 0;
+	}
+
+	#testmony-box{
+		width: 100%;
+	}
+
+
+
 
 	
 	
