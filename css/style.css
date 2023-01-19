@@ -835,17 +835,19 @@ footer .wrapper:after {
 		height: 100%;
 	}
 
-	.status-box:nth-child(1), .status-box:nth-child(2), .status-box:nth-child(4), .status-box:nth-child(5){
-		border: none;
-	}
-
-	#testmony-container{
+	#testmony-container {
 		padding: 5em 0;
 	}
 
-	#testmony-box{
+	.testmony-box {
 		width: 100%;
 	}
+
+	#testmony-container p {
+		margin-bottom: 1em;
+	}
+
+
 
 
 
