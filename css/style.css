@@ -639,7 +639,7 @@ footer .wrapper:after {
 	text-align: center;
 }
 
-#findjobs #type-filter ul{
+#findjobs #type-filter ul {
 	margin: 0;
 	border-radius: 0;
 	border: 0;
@@ -733,7 +733,11 @@ footer .wrapper:after {
 	#findjobs #search-form input[type=submit] {
 	margin-bottom: 0;
 	}
-
+     
+	#findjobs #type-filter ul li{
+		width: 24.6%;
+		box-sizing: border-box;
+	}
 
 }
 
@@ -786,6 +790,12 @@ footer .wrapper:after {
 		display: block;
 		padding: 0;
 		margin-bottom: 3em;
+	}
+
+/* find jobs page */	 
+	#findjobs #type-filter ul li{
+		width: 24.5%;
+		box-sizing: border-box;
 	}
 }
 
@@ -927,14 +937,8 @@ footer .wrapper:after {
 		margin-bottom: 1em;
 
 	}
-
 	
-
-
-
-
-
-
+	/* find jobs page */	 
 	
 	
 }
