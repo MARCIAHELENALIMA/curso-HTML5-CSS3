@@ -468,7 +468,7 @@ nav:after {
 
 .article-box{
     display: inline-block;
-	width: 100%;
+    width: 31%;
     padding: 0 1%;
     text-align: left;
 }
@@ -489,9 +489,9 @@ nav:after {
     color: #666;
 }
 
-.article-date{
+.footer-article-list span, .article-box p{
     font-size: 12px;
-    margin-bottom: 15px;
+	padding-bottom: 20px;
 }
 
 .article-resume{
@@ -515,7 +515,7 @@ footer {
 	background-color: #666;
 	padding-bottom: 40px;
 	border-top: 5px solid #3381f3;
-	padding: 2em 5em;
+	padding: 3em 5em;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -541,13 +541,13 @@ footer li {
 	list-style: none;
 }
 
+
 .container-footer {
 	display: flex;
 }
 
 .article-footer {
-	margin: 0 300px;
-	margin-bottom: 2em;
+	margin: 0px 200px 2em;
 }
 
 .company-footer h2, .company-footer p {
@@ -573,7 +573,7 @@ footer li {
 }
 
 
-.footer-list.footer-article-list span {
+.footer-list .footer-article-list span {
 	display: block;
 	float: none;
 }
@@ -948,8 +948,23 @@ footer li {
 
 	.article-footer {
 		margin: 0 10px;
-		padding-left: 5px;
+		margin: 0px 120px 2em;
+		
 	}
+
+	.article-box{
+		width: 30%;
+	}
+
+	footer .footer-article-list span{
+		margin-top: 2em;
+		line-height: 0px;
+	}
+
+	.footer-list a {
+		display: block;
+	}
+
 
 }
 
@@ -1002,6 +1017,19 @@ footer li {
 		display: block;
 		padding: 0;
 		margin-bottom: 3em;
+	}
+
+	.article-footer {
+		margin: 0 32px;
+		width: 100%;
+	}
+
+	footer{
+		padding: 2em 2em;
+	}
+    
+	.footer-list a {
+		display: block;
 	}
 
 /* find jobs page */	
@@ -1223,6 +1251,32 @@ footer li {
 
 	.p-center-testmony{
 		width: 80%;
+	}
+    
+	.container-footer {
+		flex-direction: column;
+	}
+
+	footer p{
+		margin-top: 30px;
+	}
+    
+	footer .footer-article-list span{
+		margin-top: 2em;
+		line-height: 0px;
+	}
+    
+	.footer-list a {
+		display: block;
+		width: 80%;
+	}
+
+	footer h2{
+		margin-top: 1em;
+	}		
+
+	.article-footer {
+		margin: 0;
 	}
 
 }
