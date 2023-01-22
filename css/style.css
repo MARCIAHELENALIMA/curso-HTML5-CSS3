@@ -515,6 +515,10 @@ footer {
 	background-color: #666;
 	padding-bottom: 40px;
 	border-top: 5px solid #3381f3;
+	padding: 2em 5em;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 footer h2, footer p, footer a, footer span {
@@ -537,33 +541,13 @@ footer li {
 	list-style: none;
 }
 
-.footer-box {
-	width: 20%;
-	padding: 1%;
-	
+.container-footer {
+	display: flex;
 }
 
-footer .footer-container{
-	display: inline-grid;
-    width: 49%;
-    justify-content: end;
-    justify-items: start;
-}
-
-
-
-footer .wrapper:after {
-	clear: both;
-	content: "";
-	display: block;
-}
-
-.company-footer {
-	width: 80%;
-}
-
-.company-footer h2 {
-	margin-top: 20px;
+.article-footer {
+	margin: 0 300px;
+	margin-bottom: 2em;
 }
 
 .company-footer h2, .company-footer p {
@@ -588,10 +572,6 @@ footer .wrapper:after {
 	display: block;
 }
 
-.article-footer {
-	width: 80%;
-}
-
 
 .footer-list.footer-article-list span {
 	display: block;
@@ -600,7 +580,7 @@ footer .wrapper:after {
 
 .footer-list img{
 	width: 25px;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .fab {
@@ -613,15 +593,6 @@ footer .wrapper:after {
 	float: left;
 	height: 30px;
 	line-height: 30px;
-}
-
-.footer-bottom {
-	border-top: 1px solid #B2B2B2;
-}
-
-.footer-bottom p {
-	font-weight: 600;
-	margin-top: 40px;
 }
 
 /*findjobs page*/
