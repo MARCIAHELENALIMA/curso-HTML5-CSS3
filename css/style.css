@@ -519,6 +519,7 @@ footer {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	align-items: flex-start;
 }
 
 footer h2, footer p, footer a, footer span {
@@ -546,8 +547,14 @@ footer li {
 	display: flex;
 }
 
+
 .article-footer {
-	margin: 0px 200px 2em;
+	margin: 0 10px;
+	margin: 0px 120px 2em;
+	
+}
+.article-footer {
+	margin: 0px 150px 2em;
 }
 
 .company-footer h2, .company-footer p {
@@ -560,6 +567,7 @@ footer li {
 
 .footer-list a {
 	transition: 0.5s;
+	display: block;
 }
 
 .footer-list a:hover {
@@ -944,12 +952,6 @@ footer li {
 	footer{
 		display: flex;
         align-items: flex-start;
-	}
-
-	.article-footer {
-		margin: 0 10px;
-		margin: 0px 120px 2em;
-		
 	}
 
 	.article-box{
