@@ -513,7 +513,6 @@ nav:after {
 /* footer */
 footer {
 	background-color: #666;
-	padding: 5em 0;
 	padding-bottom: 40px;
 	border-top: 5px solid #3381f3;
 }
@@ -539,10 +538,19 @@ footer li {
 }
 
 .footer-box {
-	width: 31%;
+	width: 20%;
 	padding: 1%;
-	float: left;
+	
 }
+
+footer .footer-container{
+	display: inline-grid;
+    width: 49%;
+    justify-content: end;
+    justify-items: start;
+}
+
+
 
 footer .wrapper:after {
 	clear: both;
@@ -580,9 +588,10 @@ footer .wrapper:after {
 	display: block;
 }
 
-.articles-footer {
+.article-footer {
 	width: 80%;
 }
+
 
 .footer-list.footer-article-list span {
 	display: block;
