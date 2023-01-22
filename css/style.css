@@ -468,7 +468,7 @@ nav:after {
 
 .article-box{
     display: inline-block;
-    width: 31%;
+	width: 100%;
     padding: 0 1%;
     text-align: left;
 }
@@ -939,6 +939,16 @@ footer li {
 	#findjobs #type-filter ul li{
 		width: 24.6%;
 		box-sizing: border-box;
+	}
+
+	footer{
+		display: flex;
+        align-items: flex-start;
+	}
+
+	.article-footer {
+		margin: 0 10px;
+		padding-left: 5px;
 	}
 
 }
