@@ -967,6 +967,27 @@ footer li {
 		display: block;
 	}
 
+	/*job page*/
+	#job-header #job-info div{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#jobepage .wrapper{
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	#job-header #job-info .job-type{
+		margin-left: 5%;
+	}
+
+	#job-header #job-info div{
+		width: 30%;
+	}
+
+	
+
 
 }
 
