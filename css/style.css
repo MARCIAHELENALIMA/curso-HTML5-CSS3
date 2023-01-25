@@ -45,7 +45,7 @@ nav {
 	z-index: 1;
 	background-color: #FFF;
 	border-bottom: 1px solid #CCC;
-    }
+}
 
 nav:after {
 	clear: both;
@@ -288,6 +288,7 @@ nav:after {
     padding: 10px 20px;
     font-weight: bold;
     transition: 0.5s;
+	
 }
 
 .btn-jobs:hover{
