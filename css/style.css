@@ -974,7 +974,7 @@ footer li {
 		padding-right: 1em;
 	}
 
-	#jobepage .wrapper{
+	#jobpage .wrapper{
 		padding-left: 2em;
 		padding-right: 2em;
 	}
@@ -1065,6 +1065,7 @@ footer li {
 		width: 24.5%;
 		box-sizing: border-box;
 	}
+
 }
 
 
@@ -1245,6 +1246,46 @@ footer li {
 	.input-box{
 		width: 85%;
 	}
+
+	/* job page*/
+    #job-container{
+		width: 100%;
+	}
+
+	#companyinfo-container{
+		width: 100%;
+		padding-top: 0;
+		padding-left: 0;
+	}
+
+	#job-header{
+		margin-top: 4em;
+	}
+
+	#job-header .locality{
+		display: block;
+	}
+
+	#job-header #job-info div{
+		height: 100%;
+	}
+    
+	#job-header #job-info .job-type{
+        padding-top: 35px;
+	}
+
+	#companyinfo-container .job-type{
+		right: 0;
+	}
+
+	#apply-btn{
+		margin-bottom: 3em;
+	}
+
+
+
+
+
 
 
 }
